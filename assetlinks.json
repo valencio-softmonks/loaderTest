@@ -1,1 +1,25 @@
-
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.rentawreck.rentawreckrental",
+    "sha256_cert_fingerprints":
+    ["EE:CC:4C:BC:D0:1E:AB:5C:C8:02:C3:9C:61:11:55:51:5A:F1:C7:64:E1:C3:80:17:BF:10:4C:2C:76:98:00:BD"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://github.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.rentawreck.rentawreckrental",
+    "sha256_cert_fingerprints":
+    ["EE:CC:4C:BC:D0:1E:AB:5C:C8:02:C3:9C:61:11:55:51:5A:F1:C7:64:E1:C3:80:17:BF:10:4C:2C:76:98:00:BD"]
+  }
+}]
